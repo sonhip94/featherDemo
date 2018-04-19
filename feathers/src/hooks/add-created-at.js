@@ -8,6 +8,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
     // Hooks can either return nothing or a promise
     // that resolves with the `hook` object for asynchronous operations
     hook.data.createdAt = new Date();
+
     return Promise.resolve(hook);
   };
 };

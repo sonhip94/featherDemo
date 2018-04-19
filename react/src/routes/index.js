@@ -20,7 +20,7 @@ export default () => (
   <BrowserRouter>
     <Container>
       <Header as="h1" textAlign="center">
-        <Link to="/">Menu Monkey</Link>
+        <Link to="/">FeathersJS wIth ReactJS</Link>
       </Header>
       <Route path="/" render={props => (<NavBar {...props} />)} />
       <Route exact path="/" component={getUser(Home)} />
