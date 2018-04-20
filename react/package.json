@@ -6,7 +6,7 @@
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^5.0.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^7.0.0",
     "react-scripts": "0.9.5"
   },
@@ -28,7 +28,8 @@
     "redux-actions": "^2.0.2",
     "redux-saga": "^0.15.3",
     "semantic-ui-react": "^0.68.2",
-    "superagent": "^3.5.2"
+    "superagent": "^3.5.2",
+    "updater-eslint": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
