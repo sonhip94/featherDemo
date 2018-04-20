@@ -39,10 +39,10 @@ SingleRecipe.defaultProps = {
 SingleRecipe.propTypes = {
   requestRecipe: PropTypes.func,
   currRecipe: PropTypes.shape({
-    _id: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-    imageUrl: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    _id: '',
+    name: '',
+    imageUrl: '',
+    description: '',
   }),
   match: PropTypes.shape({
     params: PropTypes.shape({
